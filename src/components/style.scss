@@ -1,0 +1,122 @@
+h5 {
+  margin: 1.5rem 0 1rem 0;
+  font-family: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+.p-tree-toggler-icon pi pi-fw pi-chevron-right{
+  position: absolute;
+left: 37.5%;
+right: 37.5%;
+top: 25%;
+bottom: 25%;
+
+/* Icon (Light) / Secondary Grey 606060 */
+
+border: 1.5px solid #606060;
+
+}
+
+
+.p-treenode-label{
+display: inline-block;
+max-width: 10ch;
+white-space: nowrap;
+overflow: hidden;
+overflow-wrap: keep-all;
+text-overflow: ellipsis;
+
+
+
+position: static;
+width: 256px;
+left: calc(50% - 256px/2 + 16px);
+top: 0%;
+bottom: 0%;
+
+/* Body/ Body 1 */
+
+font-family: HoneywellSansWeb;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+/* display: flex;*/  
+align-items: center;
+
+/* Typography (Light)/Secondary */
+
+color: #606060;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 0px 0px;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:enabled:hover
+{
+  color: #495057;
+  border-color: transparent;
+  background: transparent;
+}
+
+.p-checkbox .p-checkbox-box{
+
+position: static;
+width: 16px;
+height: 16px;
+left: 8px;
+top: 4px;
+
+/* Greyscale / Greyscale n1 707070 */
+
+border: 1px solid #707070;
+
+box-sizing: border-box;
+border-radius: 2px;
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 4px;
+}
+.p-tree-toggler-icon pi pi-fw pi-chevron-down{
+position: absolute;
+left: 25%;
+right: 25%;
+top: 37.5%;
+bottom: 37.5%;
+
+/* Icon (Light) / Secondary Grey 606060 */
+
+border: 1.5px solid #606060;
+}
+
+
+button.p-tree-toggler.p-link {
+  outline: 0 none;
+  outline-offset: 0;
+   box-shadow: none;
+}
+
+.p-tree .p-tree-container .p-treenode .p-treenode-content .p-tree-toggler:focus
+{
+  box-shadow: none
+}
+.p-link:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none;
+}
